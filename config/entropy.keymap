@@ -34,7 +34,7 @@
 
         bindings = <
 //  |   0        |   1           |   2         |   3        |   4     |   5     |   6  |   7     |   8  |   9         |   10    |   11 |   12    |   13   |   14   |   15    |   16    |   17     |   18   |   19          
-    &trans       &kp LC(W)       &kp C_MUTE    &kp C_PP     &kp ESC   &kp F1    &kp F2 &kp F3    &kp F4 &kp F5        &kp F6    &kp F7 &kp F8    &kp F9   &kp F10  &kp F11   &kp F12   &kp INSERT &kp DEL  &kp HOME
+    &trans       &trans          &trans        &trans       &kp ESC   &kp F1    &kp F2 &kp F3    &kp F4 &kp F5        &kp F6    &kp F7 &kp F8    &kp F9   &kp F10  &kp F11   &kp F12   &kp INSERT &kp DEL  &kp HOME
     &kp KP_MINUS &kp KP_MULTIPLY &kp KP_DIVIDE &kp KP_EQUAL &kp GRAV  &kp N1    &kp N2 &kp N3    &kp N4 &kp N5        &kp N6    &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS &kp EQL   &trans     &kp BKSP &kp PG_UP
     &trans       &kp KP_N7       &kp KP_N8     &kp KP_N9    &kp TAB             &kp Q  &kp W     &kp F  &kp P         &kp G     &kp J  &kp L     &kp U    &kp Y    &kp SEMI  &kp LBKT  &kp RBKT   &kp BSLH &kp PG_DN
     &kp KP_PLUS  &kp KP_N4       &kp KP_N5     &kp KP_N6    &kp BKSP            &kp A  &kp R     &kp S  &kp T         &kp D     &kp H  &kp N     &kp E    &kp I    &kp O     &kp APOS  &kp ENTER           &kp END
@@ -49,7 +49,7 @@
 
         bindings = <       
 //  |   0        |   1           |   2         |   3        |   4     |   5     |   6  |   7     |   8  |   9         |   10    |   11 |   12    |   13   |   14   |   15    |   16    |   17     |   18   |   19          
-    &trans       &kp LC(W)       &kp C_MUTE    &kp C_PP     &kp ESC   &kp F1    &kp F2 &kp F3    &kp F4 &kp F5        &kp F6    &kp F7 &kp F8    &kp F9   &kp F10  &kp F11   &kp F12   &kp INSERT &kp DEL  &kp HOME
+    &trans       &trans          &trans        &trans       &kp ESC   &kp F1    &kp F2 &kp F3    &kp F4 &kp F5        &kp F6    &kp F7 &kp F8    &kp F9   &kp F10  &kp F11   &kp F12   &kp INSERT &kp DEL  &kp HOME
     &kp KP_MINUS &kp KP_MULTIPLY &kp KP_DIVIDE &kp KP_EQUAL &kp GRAV  &kp N1    &kp N2 &kp N3    &kp N4 &kp N5        &kp N6    &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS &kp EQL   &trans     &kp BKSP &kp PG_UP
     &trans       &kp KP_N7       &kp KP_N8     &kp KP_N9    &kp TAB             &kp Q  &kp W     &kp E  &kp R         &kp T     &kp Y  &kp U     &kp I    &kp O    &kp P     &kp LBKT  &kp RBKT   &kp BSLH &kp PG_DN
     &kp KP_PLUS  &kp KP_N4       &kp KP_N5     &kp KP_N6    &kp BKSP            &kp A  &kp S     &kp D  &kp F         &kp G     &kp H  &kp J     &kp K    &kp L    &kp SEMI  &kp APOS  &kp ENTER           &kp END
@@ -78,13 +78,13 @@
                 func_layer_3 {
 
         bindings = <       
-//  |   0        |   1           |   2           |   3       |   4      |   5        |   6        |   7        |   8        |   9        |   10    |   11 |   12    |   13   |   14   |   15    |   16    |   17     |   18     |   19          
-    &trans       &trans          &rgb_ug RGB_TOG &trans      &trans     &trans       &trans       &trans       &trans       &trans       &trans    &trans &trans    &trans   &trans   &trans    &trans    &trans     &trans     &bootloader   
-    &trans       &trans          &trans          &kp KP_NLCK &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans    &trans &trans    &trans   &trans   &trans    &trans    &trans     &trans     &tog QWER 
-    &trans       &trans          &trans          &trans      &trans                  &trans       &trans       &trans       &trans       &trans    &trans &trans    &trans   &trans   &trans    &trans    &trans     &trans     &trans
-    &trans       &trans          &trans          &kp CAPS    &trans                  &trans       &trans       &trans       &trans       &trans    &trans &trans    &trans   &trans   &trans    &trans    &trans                &trans
-    &trans       &trans          &trans          &trans                 &trans       &trans       &trans       &trans       &trans       &trans    &trans &trans    &trans   &trans   &trans              &trans     &trans     &trans  
-    &trans       &trans          &trans          &trans      &trans     &trans                    &trans                    &trans       &trans           &trans             &trans   &trans    &trans    &trans     &trans     &trans
+//  |   0        |   1           |   2           |   3           |   4        |   5        |   6        |   7        |   8        |   9        |   10    |   11 |   12    |   13   |   14   |   15    |   16    |   17     |   18     |   19          
+    &out OUT_TOG &bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &trans       &trans       &trans       &trans       &trans       &trans       &trans    &trans &trans    &trans   &trans   &trans    &trans    &trans     &trans     &bootloader   
+    &trans       &trans          &trans          &kp KP_NLCK     &trans       &trans       &trans       &trans       &trans       &trans       &trans    &trans &trans    &trans   &trans   &trans    &trans    &trans     &trans     &tog QWER 
+    &trans       &rgb_ug RGB_TOG &rgb_ug RGB_HUD &rgb_ug RGB_HUI &trans                    &trans       &trans       &trans       &trans       &trans    &trans &trans    &trans   &trans   &trans    &trans    &trans     &trans     &trans
+    &trans       &rgb_ug RGB_EFF &rgb_ug RGB_SAD &rgb_ug RGB_SAI &kp CAPS                  &trans       &trans       &trans       &trans       &trans    &trans &trans    &trans   &trans   &trans    &trans    &trans                &trans
+    &trans       &rgb_ug RGB_EFR &rgb_ug RGB_BRD &rgb_ug RGB_BRI              &trans       &trans       &trans       &trans       &trans       &trans    &trans &trans    &trans   &trans   &trans              &trans     &trans     &trans  
+    &trans       &trans          &trans          &trans          &trans       &trans                    &trans                    &trans       &trans           &trans             &trans   &trans    &trans    &trans     &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
