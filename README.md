@@ -24,6 +24,7 @@ It enables building custom keymaps without having to go through the process of i
 - `chalice_nn_josh` A Colemak layout with dedicated function and RGB layers, built for a n!n
 
 ### Entropy
+- `entropy_qwerty` QWERTY layout with 6.25U spacebar, numpad, and encoder support. 
 - `entropy_josh` Colemak layout with split spacebar, numpad, and encoder support. 
 
 ## Making your own keymap / branch
